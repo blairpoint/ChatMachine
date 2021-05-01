@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="JavaFXSocketProgramming.jnlp">
+  <information>
+    <title>JavaFXSocketProgramming</title>
+    <vendor>deepa</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="JavaFXSocketProgramming.jar" size="10018" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="JavaFXSocketProgramming" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="javafxsocketprogramming.ClientJavaFX"  name="JavaFXSocketProgramming" />
+  <update check="always"/>
+</jnlp>
